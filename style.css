@@ -5,22 +5,22 @@ body {
 h1 {
   font-size: 50px;
 }
-.header_color{
+.header_color {
   color: orange;
 }
-section{
+.flexible_container {
   display: flex;
   margin-bottom: 100px;
 }
-.section_width{
+.section_width {
   width: 50%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.section_one_width img{
+.section_one_width img {
   width: 100%;
 }
-.hire_me_button{
+.hire_me_button {
   text-decoration: none;
   background-color: orange;
   padding: 10px 40px;
@@ -29,13 +29,43 @@ section{
   color: white;
   font-weight: 400;
 }
-.top_banner{
+.top_banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
-
 }
-.dream_big{
+.dream_big {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience_section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.Experiences_header {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 65px;
+}
+
+.expirence_boxes {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+}
+.expirence_boxes p {
+  margin-bottom: 20%;
+}
+#Full_Stack_Developer {
+  border-left: 5px solid tomato;
+}
+#Baby_Web_Developer {
+  border-left: 5px solid blue;
+}
+footer p {
+  text-align: center;
 }
